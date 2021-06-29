@@ -24,7 +24,7 @@ function Navbar() {
                     <div className='navbar-container container'>
                         <Link onClick={closeMobileMenu} to='/' className='navbar-logo'>
                             <img src={logo} alt='Logo' className='navbar-icon'/>
-                            Dario Carlino
+                            <div className='navbar-name'>Dario Carlino</div>
                         </Link>
                         <div onClick={handleClick} className='menu-icon'>
                             {click ? <FaTimes /> : <FaBars />}
