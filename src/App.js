@@ -3,13 +3,23 @@ import './styles/App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import Footer from './components/Footer'
+import Home from './components/pages/Home'
+import Bio from './components/pages/Bio'
+import Skills from './components/pages/Skills'
+import Projects from './components/pages/Projects'
+import Contact from './components/pages/Contact'
 
 function App() {
   return (
     <Autobahn>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact component={Main} />
+        <Route path='/home' component={Home} />
+        <Route path='/bio' component={Bio} />
+        <Route path='/skills' component={Skills} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />
     </Autobahn>
