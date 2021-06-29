@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import '../styles/Navbar.css'
@@ -9,8 +9,6 @@ function Navbar() {
 
     const [click, setClick] = useState(false)
 
-    const [btn, setButton] = useState(true)
-
     const handleClick = () => {
         setClick(!click)
     }
@@ -18,20 +16,6 @@ function Navbar() {
     const closeMobileMenu = () => {
         setClick(false)
     }
-
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false)
-        } else {
-            setButton(true)
-        }
-    }
-
-    useEffect(() => {
-        showButton()
-    }, [])
-
-    window.addEventListener('resize', showButton)
 
     return (
         <>
