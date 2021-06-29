@@ -1,5 +1,5 @@
 .navbar {
-    background: #9c3100;
+    background: #151515;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -47,7 +47,8 @@
 
 .navbar-icon {
     margin-right: 1rem;
-    height: 7vh;
+    height: 10vh;
+    border-bottom: 5px solid transparent;
 }
 
 .nav-menu {
@@ -61,11 +62,11 @@
 
 .nav-item {
     height: 80px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 5px solid transparent;
 }
   
 .nav-item:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .fa-bars {
@@ -95,6 +96,7 @@
         font-size: 2rem;
         display: flex;
         align-items: center;
+        padding-top: 5px;
     }
   
     .nav-menu {
@@ -110,7 +112,7 @@
     }
   
     .nav-menu.active {
-      background: #9c3100;
+      background: #000;
       left: 0;
       opacity: 1;
       transition: all 0.6s ease;

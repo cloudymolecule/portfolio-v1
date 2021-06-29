@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { IconContext } from 'react-icons/lib'
 import '../styles/Navbar.css'
 import { Link } from 'react-router-dom'
-import logo from '../assets/images/logo-w.png'
+import logo from '../assets/images/logo-v2.png'
 
 function Navbar() {
 
