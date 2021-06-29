@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { IconContext } from 'react-icons/lib'
 import '../styles/Navbar.css'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div className='navbar'>
-            <Link to='/'>Home</Link>
-            <Link to='/bio'>Bio</Link>
-            <Link to='/skills'>Skills</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='/contact'>Contact</Link>
-        </div>
+        <>
+            <IconContext.Provider value={{ color: '#fff' }}>
+                <div className='navbar'>
+                    <Link className='nav-link' to='/'>Home</Link>
+                    <Link className='nav-link' to='/bio'>Bio</Link>
+                    <Link className='nav-link' to='/skills'>Skills</Link>
+                    <Link className='nav-link' to='/projects'>Projects</Link>
+                    <Link className='nav-link' to='/contact'>Contact</Link>
+                </div>
+            </IconContext.Provider>
+        </>
     )
 }
 
