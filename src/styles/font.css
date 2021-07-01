@@ -3,3 +3,9 @@
     src: local('Aldrich'),
     url('../fonts/Aldrich-Regular.ttf') format('truetype')
 }
+
+@font-face {
+    font-family: 'Share';
+    src: local('Share'),
+    url('../fonts/ShareTechMono-Regular.ttf') format('truetype')
+}

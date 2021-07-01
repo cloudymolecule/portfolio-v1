@@ -24,26 +24,26 @@ function Navbar() {
                     <div className='navbar-container container'>
                         <Link onClick={closeMobileMenu} to='/' className='navbar-logo'>
                             <img src={logo} alt='Logo' className='navbar-icon'/>
-                            <div className='navbar-name'>Dario Carlino</div>
+                            <div className='navbar-name'>dario.carlino</div>
                         </Link>
                         <div onClick={handleClick} className='menu-icon'>
                             {click ? <FaTimes /> : <FaBars />}
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className='nav-item'>
-                                <Link onClick={closeMobileMenu} className='nav-link' to='/'>Home</Link>
+                                <Link onClick={closeMobileMenu} className='nav-link' to='/'>.home()</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link onClick={closeMobileMenu} className='nav-link' to='/bio'>Bio</Link>
+                                <Link onClick={closeMobileMenu} className='nav-link' to='/bio'>.bio()</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link onClick={closeMobileMenu} className='nav-link' to='/skills'>Skills</Link>
+                                <Link onClick={closeMobileMenu} className='nav-link' to='/skills'>.skills()</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link onClick={closeMobileMenu} className='nav-link' to='/projects'>Projects</Link>
+                                <Link onClick={closeMobileMenu} className='nav-link' to='/projects'>.projects()</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link onClick={closeMobileMenu} className='nav-link' to='/contact'>Contact</Link>
+                                <Link onClick={closeMobileMenu} className='nav-link' to='/contact'>.contact(me)</Link>
                             </li>
                         </ul>
                     </div>
