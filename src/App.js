@@ -1,7 +1,6 @@
 import  { BrowserRouter as Autobahn, Switch, Route } from 'react-router-dom'
 import './styles/App.css'
 import Navbar from './components/Navbar'
-import Main from './components/Main'
 import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import Bio from './components/pages/Bio'
@@ -14,8 +13,7 @@ function App() {
     <Autobahn>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Main} />
-        <Route path='/home' component={Home} />
+        <Route path='/' exact component={Home} />
         <Route path='/bio' component={Bio} />
         <Route path='/skills' component={Skills} />
         <Route path='/projects' component={Projects} />
