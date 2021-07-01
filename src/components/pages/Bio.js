@@ -3,9 +3,11 @@ import '../../styles/Bio.css'
 
 function Bio() {
     return (
-        <div>
-            <h1>Bio</h1>
-        </div>
+        <>
+            <div>
+                <h1>Bio</h1>
+            </div>
+        </>
     )
 }
 
