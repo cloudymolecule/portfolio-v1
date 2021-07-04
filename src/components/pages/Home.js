@@ -3,7 +3,7 @@ import '../../styles/Home.css'
 import portrait from '../../assets/images/portrait.jpg'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
-import Projects from './Projects'
+import Projects from './projects/Projects'
 import Skills from './skills/Skills'
 
 class Home extends Component {

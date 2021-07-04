@@ -12,16 +12,18 @@ class Skills extends Component {
     render() {
         return (
             <>
-                <h2 className='skills-title'>.skills()</h2>
-                <div className='skills-container'>
-                    <Skill skill={Ruby}/>
-                    <Skill skill={Rails}/>
-                    <Skill skill={HtmlCss}/>
-                    <Skill skill={Sinatra}/>
-                    <Skill skill={JS}/>
-                    <Skill skill={ReactJS}/>
-                    <Skill skill={Languages}/>
-                    <Skill skill={Photography}/>
+                <div className='skills-container-container'>
+                    <h2 className='skills-title'>.skills()</h2>
+                    <div className='skills-container'>
+                        <Skill skill={Ruby}/>
+                        <Skill skill={Rails}/>
+                        <Skill skill={HtmlCss}/>
+                        <Skill skill={Sinatra}/>
+                        <Skill skill={JS}/>
+                        <Skill skill={ReactJS}/>
+                        <Skill skill={Languages}/>
+                        <Skill skill={Photography}/>
+                    </div>
                 </div>
             </>
         )

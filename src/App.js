@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Home from './components/pages/Home'
 import AboutMe from './components/pages/AboutMe'
 import Skills from './components/pages/skills/Skills'
-import Projects from './components/pages/Projects'
+import Projects from './components/pages/projects/Projects'
 import Contact from './components/pages/Contact'
 
 function App() {

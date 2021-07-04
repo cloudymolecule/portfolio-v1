@@ -3,6 +3,10 @@
     padding-bottom: 30px;
 }
 
+.skills-container-container {
+    padding-bottom: 50px;
+}
+
 .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
