@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import '../../styles/Contact.css'
+import { AiFillInstagram, AiFillLinkedin, AiFillGithub, AiFillMediumCircle, AiFillTwitterCircle } from 'react-icons/ai'
+import { MdEmail } from 'react-icons/md'
+import { IconContext } from 'react-icons/lib'
 
 class Contact extends Component {
     
@@ -9,11 +12,27 @@ class Contact extends Component {
     
     render() {
         return (
-            <div>
-                 <h1>Contact</h1>
-            </div>
+            <>
+                <IconContext.Provider value={{ color: '#ffd500', size: '80px' }}>
+                    <AiFillLinkedin />
+                    <MdEmail />
+                    <AiFillGithub />
+                    <AiFillTwitterCircle />
+                    <AiFillMediumCircle />
+                    <AiFillInstagram />
+                </IconContext.Provider>
+            </>
         )
     }
 }
 
 export default Contact
+
+// FaInstagram
+// FaLinkedin 
+// FaGithub
+// email 
+// blog 
+// twitter 
+
+
