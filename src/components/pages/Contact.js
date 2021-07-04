@@ -19,7 +19,7 @@ class Contact extends Component {
                         <a className='contact-item' href='https://www.linkedin.com/in/dariocarlino/' target="_blank" rel="noreferrer">
                             <AiFillLinkedin />
                         </a>
-                        <a className='contact-item' href='mailto: dariocarlino908@gmail.com"' target="_blank" rel="noreferrer">
+                        <a className='contact-item' href='mailto: dariocarlino908@gmail.com' target="_blank" rel="noreferrer">
                             <MdEmail />
                         </a>
                         <a className='contact-item' href='https://github.com/cloudymolecule' target="_blank" rel="noreferrer">
