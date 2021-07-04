@@ -6,7 +6,7 @@ function Skill(data) {
             <div className='skill-title'>
                 <h2>{data.skill.title}</h2>
             </div>
-            <div className='skill-desc'>
+            <div className='skill-description'>
                 <p>{data.skill.description}</p>
             </div>
             <ul className='skill-list'>
