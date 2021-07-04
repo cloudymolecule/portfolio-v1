@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import '../../../styles/Projects.css'
+import Project from '../projects/Project'
+import { TvShows, Shutterlogger, Firebook, Rentscape} from '../../../data/Projects'
 
 class Projects extends Component {
     
@@ -9,8 +11,14 @@ class Projects extends Component {
     
     render() {
         return (
-            <div>
-                <h1>Projects</h1>
+            <div className='projects-container-container'>
+                    <h2 className='projects-title'>.projects()</h2>
+                    <div className='projects-container'>
+                        <Project project={TvShows}/>
+                        <Project project={Shutterlogger}/>
+                        <Project project={Firebook}/>
+                        <Project project={Rentscape}/>
+                    </div>
             </div>
         )
     }
