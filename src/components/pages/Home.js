@@ -4,8 +4,7 @@ import portrait from '../../assets/images/portrait.jpg'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
 import Projects from './Projects'
-import Skills from './Skills'
-import { Ruby, Rails, Sinatra, JS, ReactJS, Languages } from '../../data/Skills'
+import Skills from './skills/Skills'
 
 function Home() {
     return (
@@ -26,15 +25,7 @@ function Home() {
             </div>
             <div>
                 <AboutMe />
-                <div className='skills-container-container'>
-                    <h2 className='skills-title'>.skills()</h2>
-                    <Skills skill={Ruby}/>
-                    <Skills skill={Rails}/>
-                    <Skills skill={Sinatra}/>
-                    <Skills skill={JS}/>
-                    <Skills skill={ReactJS}/>
-                    <Skills skill={Languages}/>
-                </div>
+                <Skills />
                 <Projects />
                 <Contact />
             </div>

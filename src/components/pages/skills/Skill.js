@@ -1,7 +1,6 @@
 import React from 'react'
-import '../../styles/Skills.css'
 
-function Skills(data) {
+function Skill(data) {
     return (
         <div className='skill-container'>
             <div className='skill-title'>
@@ -10,8 +9,11 @@ function Skills(data) {
             <div className='skill-desc'>
                 <p>{data.skill.description}</p>
             </div>
+            <ul className='skill-list'>
+                {data.skill.list.map(item => <li>{item}</li>)}
+            </ul>
         </div>
     )
 }
 
-export default Skills
+export default Skill
