@@ -1,10 +1,15 @@
 import React from 'react'
 import '../../styles/Skills.css'
 
-function Skills() {
+function Skills(data) {
     return (
-        <div>
-            <h1>Skills</h1>
+        <div className='skill-container'>
+            <div className='skill-title'>
+                <h2>{data.skill.title}</h2>
+            </div>
+            <div className='skill-desc'>
+                <p>{data.skill.description}</p>
+            </div>
         </div>
     )
 }

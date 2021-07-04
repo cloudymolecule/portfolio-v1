@@ -1,0 +1,15 @@
+.about-text-container {
+    font-size: 1.5em;
+}
+
+.about-title {
+    color: #ffd500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-text {
+    margin: 20px 10vw 0 10vw;
+    text-align: justify;
+    line-height: 1.5em;
+}

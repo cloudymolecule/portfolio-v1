@@ -1,3 +1,7 @@
+.home-container {
+    padding-bottom: 50px;
+}
+
 .home-name {
     color: #ffd500;
 }
@@ -19,6 +23,7 @@
 
 .home-portrait-container {
     padding-top: 20px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
