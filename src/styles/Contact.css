@@ -1,0 +1,33 @@
+.contact-container {
+    margin-top: 50px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 100px;
+    
+}
+
+.contact-title {
+    color: #ffd500;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2em;
+}
+
+.contact-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-item {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .contact-icons {
+        grid-template-columns: 1fr 1fr;
+    }
+}

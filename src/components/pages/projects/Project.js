@@ -2,8 +2,6 @@ import React from 'react'
 import '../../../assets/images/rentscape.png'
 function Project(data) {
     
-    const source = '../../../assets/images/' + data.project.image + '.png'
-
     return (
         <div className='project-container'>
             <div className='project-title'>
