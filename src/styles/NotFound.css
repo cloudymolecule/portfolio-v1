@@ -1,0 +1,36 @@
+.not-found-container {
+   text-align: center;
+}
+
+.not-found-text {
+    color: #ffd500;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+.not-found-pretzel {
+   padding: 50px 0 50px 0;
+   border-radius: 30%;
+   max-width: 300px;
+}
+
+a.not-found-home:link, a.not-found-home:visited, a.not-found-home:hover, a.project-link:active {
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+
+a.not-found-home:link {
+    color: #fff
+}
+
+a.not-found-home:visited { 
+    color: #fff;
+}
+
+a.not-found-home:hover {
+    color: #ffd500;
+}

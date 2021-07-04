@@ -7,6 +7,7 @@ import AboutMe from './components/pages/AboutMe'
 import Skills from './components/pages/skills/Skills'
 import Projects from './components/pages/projects/Projects'
 import Contact from './components/pages/Contact'
+import NotFound from './components/NotFound'
 import Ava from './components/pages/Ava'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
         <Route path='/ava' component={Ava} />
+        <Route component={NotFound} />
       </Switch>
       <Footer />
     </Autobahn>
