@@ -9,19 +9,31 @@ class Contact extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
     }
-    
+
     render() {
         return (
             <div className='contact-container'>
                 <IconContext.Provider value={{ color: '#ffd500', size: '80px' }}>
                     <h2 className='contact-title'>.contact(me)</h2>
                     <div className='contact-icons'>
-                        <AiFillLinkedin className='contact-item'/>
-                        <MdEmail className='contact-item'/>
-                        <AiFillGithub className='contact-item'/>
-                        <AiFillTwitterCircle className='contact-item'/>
-                        <AiFillMediumCircle className='contact-item'/>
-                        <AiFillInstagram className='contact-item'/>
+                        <a className='contact-item' href='https://www.linkedin.com/in/dariocarlino/' target="_blank" rel="noreferrer">
+                            <AiFillLinkedin />
+                        </a>
+                        <a className='contact-item' href='mailto: dariocarlino908@gmail.com"' target="_blank" rel="noreferrer">
+                            <MdEmail />
+                        </a>
+                        <a className='contact-item' href='https://github.com/cloudymolecule' target="_blank" rel="noreferrer">
+                            <AiFillGithub />
+                        </a>
+                        <a className='contact-item' href='https://twitter.com/darioacarlino' target="_blank" rel="noreferrer">
+                            <AiFillTwitterCircle />
+                        </a>
+                        <a className='contact-item' href='https://dariocarlino908.medium.com/' target="_blank" rel="noreferrer">
+                            <AiFillMediumCircle />
+                        </a>
+                        <a className='contact-item' href='https://www.instagram.com/darioacarlino/' target="_blank" rel="noreferrer">
+                            <AiFillInstagram />
+                        </a>
                     </div>
                 </IconContext.Provider>
             </div>

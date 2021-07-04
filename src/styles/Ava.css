@@ -1,0 +1,18 @@
+.ava-container {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.ava-title {
+    color: #ffd500;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2em;
+}
+.ava-image {
+    border-style: groove;
+    border-color: #ffd500;
+    border-width: 20px;
+}

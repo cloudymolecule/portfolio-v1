@@ -7,6 +7,7 @@ import AboutMe from './components/pages/AboutMe'
 import Skills from './components/pages/skills/Skills'
 import Projects from './components/pages/projects/Projects'
 import Contact from './components/pages/Contact'
+import Ava from './components/pages/Ava'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/skills' component={Skills} />
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
+        <Route path='/ava' component={Ava} />
       </Switch>
       <Footer />
     </Autobahn>
